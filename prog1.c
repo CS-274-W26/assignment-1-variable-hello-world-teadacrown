@@ -15,12 +15,15 @@ int main() {
 	//random number 0 to 10
 	int myrand = rand()%11;
 
-	if (myrand <= 4){
+	if (myrand <= 4){ 
+		//if myrand between 0 to 4 print the following:
 		printf("Eat more beef, kick less cats \n");
 
 	} else if (myrand <= 9){
+		//if myrand between 5 to 9 print the following:
 		printf("FRODO LIVES \n");
 	} else {
+		//if myrand 10 print the following:
 		printf("Larn is the best roguelike \n");
 	}
 
